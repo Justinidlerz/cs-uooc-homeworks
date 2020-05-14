@@ -857,3 +857,315 @@ x=x+n；
 
 
 
+## 测验-7.2例外处理机制
+
+    
+### 单选题
+
+    
+1. 编译java程序时出现error:&nbsp;&nbsp;&nbsp;&nbsp;cannot&nbsp;&nbsp;&nbsp;&nbsp;read:&nbsp;&nbsp;&nbsp;&nbsp;aaa.java，则下列原因最正确的是   
+
+    <font color=red >A: 原因是执行的当前目录下没有找到aaa.java文件</font>
+
+    <p>&nbsp;</p>
+
+2. <p>下列常见的系统定义的异常中，____________是输入、输出异常?</p>   
+
+    <font color=red >B: IOException</font>
+
+    <p>&nbsp;</p>
+
+3. <p>哪个关键字可以抛出异常？</p>   
+
+    <font color=red >C: throw</font>
+
+    <p>&nbsp;</p>
+
+4. <p>例外处理过程中对于catch子句的排列，下列哪种是正确的</p>   
+
+    <font color=red >B: 子类在先，父类在后</font>
+
+    <p>&nbsp;</p>
+
+5. <p>throws的作用是：</p>   
+
+    <font color=red >C: 表示方法可能会抛出例外</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-8.1File类
+
+    
+
+
+
+
+### 判断题
+
+    
+1. <p>可以使用File类读取文本文件里的内容。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+## 测验-8.2输入输出流
+
+    
+### 单选题
+
+    
+1. <p>下列InputStream类中_______方法可以用于关闭流？</p>   
+
+    <font color=red >C: close()</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+### 判断题
+
+    
+1. <p>使用FileInputStream类，可以从文件中按字符读入数据。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+## 测验-9.2窗体
+
+    
+
+
+### 多选题
+
+    
+1. <p>使用Swing编程时，如果要保证线程安全，需要使用哪几种线程：<br/></p><p><br/></p>   
+
+    <font color=red >A: 初始化线程</font>
+
+    <font color=red >B: 事件调度线程</font>
+
+    <font color=red >C: 工作线程</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+## 测验-9.3菜单
+
+    
+
+
+
+
+### 判断题
+
+    
+1. <p>快捷键是为了提升效率而设，菜单项一定要设置快捷键。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+2. <p>助记符是为了提升效率而设，菜单项一定要设置助记符。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+## 测验-9.4布局管理
+
+    
+
+
+
+
+### 判断题
+
+    
+1. <p>为了实现复杂的界面布局，JFrame的内容区可以设置多个Layout。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+## 测验-9.5常用组件
+
+    
+
+
+
+
+### 判断题
+
+    
+1. <p>密码框类JPasswordField是文本框类JTextField的子类。文本框用JTextField.getText()获取文本内容，密码框可以使用JPasswordField.getText()获取密码文本。</p>   
+
+    <font color=red >B: 错误</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+## 测验-9.6常用对话框
+
+    
+### 单选题
+
+    
+1. <p>String s = JOptionPane.showInputDialog(frame,&quot;请输入您所在城市名称：&quot;);</p><p>上面的代码执行后，会弹出一个输入对话框，如果用户点击对话框右上角上的“X”图标（关闭按钮），那么返回值s是：</p>   
+
+    <font color=red >B: null</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-9.7事件处理
+
+    
+
+
+### 多选题
+
+    
+1. <p>下面哪些是正确的？</p>   
+
+    <font color=red >A: MouseAdapter是一个类</font>
+
+    <font color=red >D: MouseListener是一个接口</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+## 测验-10.1线程概述
+
+    
+### 单选题
+
+    
+1. <p>在java程序中，下列关于线程的说法错误的是（ ）。</p>   
+
+    <font color=red >B: 多个线程运行时执行顺序是按顺序执行的</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-10.2创建线程
+
+    
+### 单选题
+
+    
+1. <p>Thread类用来创建和控制线程，启动一个线程应该使用下面的哪个方法？（ ）</p>   
+
+    <font color=red >B: start()</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-10.3线程同步机制
+
+    
+### 单选题
+
+    
+1. <p>当多个线程对象操作同一资源时，使用（ ）关键字进行资源同步。</p>   
+
+    <font color=red >B: synchronized</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-11.1网络地址
+
+    
+### 单选题
+
+    
+1. <p>InetAddress类中的（ ）方法可以实现正向名称解析。</p>   
+
+    <font color=red >D: getByName()</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+## 测验-11.2TCP连接
+
+    
+### 单选题
+
+    
+1. <p>ServerSocket的监听方法accept()的返回值类型是（ ）。</p>   
+
+    <font color=red >C: Socket</font>
+
+    <p>&nbsp;</p>
+
+
+
+
+
+
+
+
